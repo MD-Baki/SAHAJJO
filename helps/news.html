@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahajjo</title>
+
+    <!-- google fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <!-- google fonts end -->
+    <!-- jquary css start -->
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/jquery.rprogessbar.min.css">
+    <!-- jquary css end -->
+
+    <!-- custom css start -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- custom css end -->
+
+    <!-- main css start -->
+    <link rel="stylesheet" href="../css/helps.css">
+    <!-- main css end -->
+
+    <!-- responsive css start -->
+    <link rel="stylesheet" href="../css/helpResponsive.css">
+    <!-- responsive css end -->
+</head>
+<body>
+    <!-- header section start -->
+    <header>
+        <div class="row mx-0">
+            <div class="col-lg-2 col-md-3 logo d-flex">
+                <a href="home.html" class="navbar-brand">
+                    <img src="../images/helps/logo.png" alt="logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-10 col-md-9 g-0">
+                <div class="container">
+                    <div class="top_sec pd d-none d-lg-block">
+                        <div class="row mx-0 px-0 align-items-center">
+                            <div class="col-lg-5 g-0">
+                                <p>Welcome to the Charity & Donation Theme</p>
+                            </div>
+                            <div class="col-lg-3 g-0 mail">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="#">needhelp@cherity.com</a>
+                            </div>
+                            <div class="col-lg-4 social">
+                                <ul class="nav d-flex justify-content-end">
+                                    <li class="nav-item">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="fa-brands fa-dribbble"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="fa-brands fa-instagram"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu pd">
+                        <div class="row align-items-center">
+                            <div class="col-md-8 col-6">
+                                <nav class="navvar navbar-expand-lg">
+                                    <button class="navbar-toggler on_batton" type="button" data-bs-toggle="collapse" data-bs-target="#siteMenu">
+                                        <i class="fa-solid fa-align-center"></i>
+                                    </button>
+                                    <div class="collapse navbar-collapse d-none d-lg-block" id="siteMenu">
+                                        <ul class="navbar-nav d-flex justify-content-between">
+                                            <li class="nav-item"><a href="home.html" class="nav-link">home</a></li>
+                                            <li class="nav-item"><a href="about.html" class="nav-link">about Us</a></li>
+                                            <li class="nav-item"><a href="donation.html" class="nav-link">donations</a></li>
+
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link show" href="event.html" data-bs-target="dropdown">Events</a>
+                                                <ul class="dropdown-menu show">
+                                                  <li class="dr_item"><a class="dropdown-item" href="event.html">Events</a></li>
+                                                  <li class="dr_item inn"><hr class="dropdown-divider"></li>
+                                                  <li class="dr_item"><a class="dropdown-item" href="event_detals.html">Events Details</a></li>
+                                                </ul>
+                                              </li>
+
+                                              <li class="nav-item dropdown">
+                                                <a class="nav-link show" href="news.html" data-bs-target="dropdown">News</a>
+                                                <ul class="dropdown-menu show">
+                                                  <li class="dr_item"><a class="dropdown-item" href="news.html">News</a></li>
+                                                  <li class="dr_item inn"><hr class="dropdown-divider"></li>
+                                                  <li class="dr_item"><a class="dropdown-item" href="news_detals.html">News Details</a></li>
+                                                </ul>
+                                              </li>
+
+                                            <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-md-3 col-6 c0l-md-offset-1 text-center donate">
+                                <a href="coming_soon.html">
+                                    <i class="fa-solid fa-heart"></i> Donate
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- side menu start -->
+        <div class="side_menu">
+            <div class="side_logo d-flex justify-content-between">
+                <img src="../images/helps/logo.png" alt="" class="img-fluid">
+                <a href="#" class="off_batton"><i class="fa-solid fa-square-xmark"></i></a>
+            </div>
+            <nav class="navbar p-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="home.html" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">about Us</a></li>
+                    <li class="nav-item"><a href="donation.html" class="nav-link">donations</a></li>
+
+                    <li class="nav-item d-flex flex-wrap justify-content-between">
+                        <a href="event.html" class="nav-link">Event</a>
+                        <a href="#page_drops" data-bs-toggle="collapse"><i class="fa-solid fa-angle-down"></i></a>
+
+                        <ul class="collapse" id="page_drops">
+                            <li class="nav-item my"><a href="event.html" class="nav-link">Events</a></li>
+                            <li class="nav-item my"><a href="event_detals.html" class="nav-link">Events Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item d-flex flex-wrap justify-content-between">
+                        <a href="news.html" class="nav-link">News</a>
+                        <a href="#page_drop" data-bs-toggle="collapse"><i class="fa-solid fa-angle-down"></i></a>
+
+                        <ul class="collapse" id="page_drop">
+                            <li class="nav-item my"><a href="news.html" class="nav-link">News</a></li>
+                            <li class="nav-item my"><a href="news_detals.html" class="nav-link">News Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                </ul>
+            </nav>
+            <div class="side_nav_con ">
+                <a href="#"><i class="fa-solid fa-envelope"></i> Sahajjokarun@gmail.com</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> 666 555 1010</a>
+            </div>
+            <div class="side_nav_icone text-center">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <!-- side menu end -->
+    </header>
+    <!-- header section end -->
+
+    <!-- Newn Banner Section Start -->
+    <section id="about_banner">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <h2>News</h2>
+            </div>
+            <div class="banner_container">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="news.html" class="mark_ab">News</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ||Newn Banner Section End|| -->
+    
+    <!-- News Shorts Section Start -->
+    <section id="news_shorts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 news_item">
+                    <div class="news_item_space">
+                        <div class="news_img">
+                            <img src="../images/helps/news-img-1.jpg" alt="" class="w-100">
+                            <div class="news_overlay d-flex align-items-center justify-content-center">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_date">
+                                <h6>20 Jan, 2021</h6>
+                            </div>
+                            <div class="news_con_icone">
+                                <a href="#"><i class="fa-regular fa-user"></i> Admin</a>
+                                <a href="#" class="slash">/</a>
+                                <a href="#"><i class="fa-regular fa-comments"></i> 2 Comments</a>
+                            </div>
+                            <h4>Donation is Hope for Poor Childrens in</h4>
+                            <p>There are many variations of but the majority have simply free text available not suffered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 news_item">
+                    <div class="news_item_space">
+                        <div class="news_img">
+                            <img src="../images/helps/news-img-2.jpg" alt="" class="w-100">
+                            <div class="news_overlay d-flex align-items-center justify-content-center">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_date">
+                                <h6>20 Jan, 2021</h6>
+                            </div>
+                            <div class="news_con_icone">
+                                <a href="#"><i class="fa-regular fa-user"></i> Admin</a>
+                                <a href="#" class="slash">/</a>
+                                <a href="#"><i class="fa-regular fa-comments"></i> 2 Comments</a>
+                            </div>
+                            <h4>How Malnutrition Affect Children?</h4>
+                            <p>There are many variations of but the majority have simply free text available not suffered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 news_item">
+                    <div class="news_item_space">
+                        <div class="news_img">
+                            <img src="../images/helps/news-img-3.jpg" alt="" class="w-100">
+                            <div class="news_overlay d-flex align-items-center justify-content-center">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_date">
+                                <h6>20 Jan, 2021</h6>
+                            </div>
+                            <div class="news_con_icone">
+                                <a href="#"><i class="fa-regular fa-user"></i> Admin</a>
+                                <a href="#" class="slash">/</a>
+                                <a href="#"><i class="fa-regular fa-comments"></i> 2 Comments</a>
+                            </div>
+                            <h4>Capitalize on low hanging to identify</h4>
+                            <p>There are many variations of but the majority have simply free text available not suffered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 news_item">
+                    <div class="news_item_space">
+                        <div class="news_img">
+                            <img src="../images/helps/news-img-4.jpg" alt="" class="w-100">
+                            <div class="news_overlay d-flex align-items-center justify-content-center">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_date">
+                                <h6>20 Jan, 2021</h6>
+                            </div>
+                            <div class="news_con_icone">
+                                <a href="#"><i class="fa-regular fa-user"></i> Admin</a>
+                                <a href="#" class="slash">/</a>
+                                <a href="#"><i class="fa-regular fa-comments"></i> 2 Comments</a>
+                            </div>
+                            <h4>Override the digital divide with additional</h4>
+                            <p>There are many variations of but the majority have simply free text available not suffered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 news_item">
+                    <div class="news_item_space">
+                        <div class="news_img">
+                            <img src="../images/helps/news-img-5.jpg" alt="" class="w-100">
+                            <div class="news_overlay d-flex align-items-center justify-content-center">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_date">
+                                <h6>20 Jan, 2021</h6>
+                            </div>
+                            <div class="news_con_icone">
+                                <a href="#"><i class="fa-regular fa-user"></i> Admin</a>
+                                <a href="#" class="slash">/</a>
+                                <a href="#"><i class="fa-regular fa-comments"></i> 2 Comments</a>
+                            </div>
+                            <h4>Nanotechnology immersion along the</h4>
+                            <p>There are many variations of but the majority have simply free text available not suffered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 news_item">
+                    <div class="news_item_space">
+                        <div class="news_img">
+                            <img src="../images/helps/news-img-6.jpg" alt="" class="w-100">
+                            <div class="news_overlay d-flex align-items-center justify-content-center">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            <div class="news_date">
+                                <h6>20 Jan, 2021</h6>
+                            </div>
+                            <div class="news_con_icone">
+                                <a href="#"><i class="fa-regular fa-user"></i> Admin</a>
+                                <a href="#" class="slash">/</a>
+                                <a href="#"><i class="fa-regular fa-comments"></i> 2 Comments</a>
+                            </div>
+                            <h4>User generate in have multi time</h4>
+                            <p>There are many variations of but the majority have simply free text available not suffered.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ||News Shorts Section End|| -->
+
+    <!-- contact section start -->
+    <section id="contact">
+        <div class="container content">
+            <div class="row align-items-baseline ">
+                <div class="col-lg-3 col-sm-6 con_about">
+                    <h3>about</h3>
+                    <p>Lorem ipsum, dolor sit amet Lorem ipsum consectetur adipisicing elit. Accusantium iure quas non.</p>
+                    <a href="coming_soon.html">
+                        <i class="fa-solid fa-heart"></i>
+                        donate
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 con_explore">
+                    <h3>explore</h3>
+                    <ul class="nav justify-content-between">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">donate</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Campaigns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">fundraise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">volunteers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">fundraising</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">faqs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 con">
+                    <h3 class="bottom_pd">contact</h3>
+                    <ul class="nav">
+                        <li class="d-flex align-items-center">
+                            <div class="icon">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div class="d">
+                                <p>call anytime</p>
+                                <a href="">0000545855454</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="d">
+                                <p>sent mail</p>
+                                <a href="">helpscharity@gmail.com</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="d">
+                                <p>visit office</p>
+                                <a href="">80 broklyn golden street</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 newsletter">
+                    <h3 class="bottom_pd">newsletter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum officia quis itaque quibusdam </p>
+                    <input type="mail" placeholder="Email address">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+    <!-- footer section start -->
+    <footer>
+        <div class="row mx-0">
+            <div class="col-4 col-sm-3 col-lg-2 fot_img d-flex align-items-center justify-content-center">
+                <img src="../images/helps/logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-5 col-md-4 col-lg-6 fot_social d-none d-sm-block">
+                <ul class="nav ps-3">
+                    <li  class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-dribbble"></i>
+                        </a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-8 col-sm-4 col-md-5 col-lg-4 d-flex align-items-center fot_tle">
+                <p> &copy; copyright 2022 by helps</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Back-To-Top Section Start -->
+    <div id="top">
+        <div class="back_top">
+            <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </div>
+    <!-- ||Back-To-Top Section End|| -->
+
+    <!-- jquary plugin start -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/waypoint.min.js"></script>
+    <script src="../js/jQuery.rProgressbar.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <!-- jquary plugin end -->
+    
+    <!-- custom plugin start -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- custom plugin end -->
+
+    <!-- main js  -->
+    <script src="../js/script.js"></script>
+    <!-- main js end -->
+</body>
+</html>

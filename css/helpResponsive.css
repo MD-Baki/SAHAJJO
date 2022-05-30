@@ -1,0 +1,971 @@
+/* https://uddinmayraj.github.io/my-first-website/helps/home.html */
+@media (max-width:767.98px){
+    header .logo.animate{
+        display: none !important;
+        visibility: hidden;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    /* Header Responsive Css Start */
+    header .top_sec {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    header .top_sec p {
+        font-size: 13px;
+    }
+    header .top_sec .mail i {
+        font-size: 12px;
+        padding-right: 1px;
+    }
+    header .top_sec .mail a {
+        font-size: 13px;
+    }
+    header .top_sec .social ul li a {
+        padding: 0;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* Charity Responsive Css Start */
+    #charity {
+        margin: 80px 0 120px 0;
+    }
+    #charity .charity_content .heading h2 {
+        font-size: 39px;
+    }
+    #charity .img-sec .bttext {
+        bottom: 61px;
+    }
+    #charity .img-sec .hearticon {
+        right: 76px;
+        bottom: 113px;
+    }
+    /* ||Charity Responsive Css End|| */
+
+    /* Causes Responsive Css Start */
+    #causes .causestitle h5::before {
+        left: 140px;
+    }
+    #causes .causestitle h3 {
+        font-size: 45px;
+        padding-top: 15px;
+    }
+    /* ||Causes Responsive Css End|| */
+
+    /* join community Responsive Css Start */
+    #community .title h2 {
+        font-size: 42px;
+    }
+    #donate .donatetitle h5::before {
+        left: 150px;
+    }
+    #donate .donatetitle h3 {
+        font-size: 47px;
+        padding-top: 15px;
+    }
+    /* ||join community Responsive Css End|| */
+
+    /* Donate Responsive Css Start */
+    #donate .content_box h3 {
+        font-size: 20px;
+    }
+    #donate .content_box p {
+        padding: 18px 0;
+    }
+    /* ||Donate Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #testimonial .clientSec {
+        padding-top: 160px;
+    }
+    #testimonial .test_item_arrow{
+        position: absolute;
+        bottom: 19px;
+    }
+    #testimonial .clientSec .heading h2 {
+        font-size: 48px;
+        padding-bottom: 25px;
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* Blog Responsive Css Start */
+    #blog .item_right .newsright .news_title a {
+        font-size: 27px;
+    }
+    /* ||Blog Responsive Css End|| */
+
+    /*  Responsive Css Start */
+    #contact {
+	padding: 80px 0;
+}
+    /* || Responsive Css End|| */
+
+    /*=======================
+    About Page
+    =========================*/
+    /* Introduction Responsive Css Start */
+    #introduction{
+        padding: 80px 60px;
+    }
+    #introduction .intro_content{
+        padding-top: 40px;
+        padding-left: 12px;
+    }
+    /* ||Introduction Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #test .test_item h2{
+        padding-bottom: 30px;
+    }
+    #test .test_item_arrow{
+        padding-top: 20px !important;
+        position: absolute;
+        bottom: 30px;
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /*=======================
+    News Page
+    =========================*/
+    #news_shorts .news_item h4 {
+        font-size: 20px;
+    }
+
+    .details_sidebar .search {
+        padding: 0 10px;
+    }
+    /*=======================
+    Contact Page
+    =========================*/
+    #contact_form .donatetitle h5::before {
+        left: 135px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    /* Header Responsive Css Start */
+    header .menu{
+        padding: 40px 0;
+    }
+    .offset-1 {
+        margin-left: 5.333%;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* Banner Responsive Css Start */
+    #banner .slider_item .slider_content h2 {
+        font-size: 72px;
+    }
+    /* ||Banner Responsive Css End|| */
+
+    /* Charity Responsive Css Start */
+    #charity {
+        margin: 70px 0;
+    }
+    #charity .img-sec{
+        margin-bottom: 120px;
+    }
+    #charity .main_img::before {
+        left: -34px;
+    }
+    /* ||Charity Responsive Css End|| */
+
+    /* Causes Responsive Css Start */
+    #causes .causestitle h5::before {
+        left: 72px;
+    }
+    #causes .causestitle h3 {
+        font-size: 35px;
+        padding-top: 15px;
+        line-height: 48px;
+    }
+    /* ||Causes Responsive Css End|| */
+
+    /* Donate Responsive Css Start */
+    #donate .donatetitle h5::before {
+        left: 224px;
+    }
+    #donate .donatetitle h3 {
+        font-size: 42px;
+    }
+    /* ||Donate Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #testimonial .clientSec {
+        padding-top: 160px;
+    }
+    #testimonial .test_item_arrow{
+        position: absolute;
+        bottom: 19px;
+    }
+    #testimonial .clientSec .heading h2 {
+        font-size: 48px;
+        padding-bottom: 25px;
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* Blog Responsive Css Start */
+    #blog .blog_link{
+        text-align: left;
+    }
+    #blog .content P {
+        font-size: 41px;
+        line-height: 52px;
+        padding: 10px 0 40px 0;
+    }
+    #blog .blog_item .item_left{
+        padding-bottom: 30px;
+    }
+    /* ||Blog Responsive Css End|| */
+
+    /* Contact Responsive Css Start */
+    #contact .con_about h3, #contact .con_explore h3, #contact .con h3, #contact .newsletter h3.bottom_pd{
+        padding-top: 30px;
+    }
+    /* ||Contact Responsive Css End|| */
+
+    /*=======================
+    About Page
+    =========================*/
+    /* Introduction Responsive Css Start */
+    #introduction{
+        padding: 80px 0;
+    }
+    #introduction .intro_content {
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+    /* ||Introduction Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #test .test_item h2{
+        padding-bottom: 30px;
+    }
+    #test .test_item_arrow{
+        padding-top: 0px;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* counter Responsive Css Start */
+    #count_sec h4 {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        font-size: 52px;
+    }
+    #counter_up .counter_item h5{
+        font-size: 40px;
+    }
+    /* ||counter Responsive Css End|| */
+
+    /* Volunteer Responsive Css Start */
+    #volunteer .volunteer_item{
+        padding-bottom: 20px;
+    }
+    /* ||Volunteer Responsive Css End|| */
+
+    /*=======================
+    Event Page
+    =========================*/
+    #event_detals .event_d_item_right {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    /*=======================
+    News Page
+    =========================*/
+    #news_shorts{
+        padding: 80px 0;
+    }
+    #news_shorts .news_item h4 {
+        font-size: 20px;
+    }
+
+    #details{
+        margin:80px 0;
+    }
+    /*=======================
+    Contact Page
+    =========================*/
+    #contact_form .donatetitle h5::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        left: 208px !important;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: var(--primary-color);
+    }
+
+    /* Coming Soon Responsive Css Start */
+    #coming .soon h2 {
+        padding-bottom: 34px;
+        font-size: 36px;
+        letter-spacing: 16px;
+    }
+    #clock a{
+        margin: 0 20px;
+        padding: 10px 10px;
+        font-size: 25px;
+    }
+    #coming .soon h3 {
+        font-size: 26px;
+        letter-spacing: 12px;
+    }
+    /* ||Coming Soon Responsive Css End|| */
+}
+@media (min-width:576px) and (max-width:767.98px){
+    /* Header Responsive Css Start */
+    header .logo,
+    header .menu{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    header .menu .donate{
+        text-align: right !important;
+    }
+    .navbar-toggler {
+        padding-left: 0;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* Banner Responsive Css Start */
+    #banner .slider_item .slider_content h4 {
+        font-size: 30px;
+    }
+    #banner .slider_item .slider_content h2 {
+        font-size: 51px;
+    }
+    #banner .slider_item{
+        height: 500px;
+    }
+    /* ||Banner Responsive Css End|| */
+
+    /* Charity Responsive Css Start */
+    #charity {
+        margin: 70px 0;
+    }
+    #charity .img-sec{
+        margin-bottom: 120px;
+    }
+    #charity .main_img::before {
+        left: -30px;
+    }
+    #charity .img-sec .hearticon {
+        right: 17px;
+        bottom: 19px;
+    }
+    #charity .charity_content .heading {
+        margin-bottom: 18px;
+    }
+    #charity .charity_content .heading h2 {
+        font-size: 38px;
+    }
+    /* ||Charity Responsive Css End|| */
+
+    /* Causes Responsive Css Start */
+    #causes .causestitle h5::before {
+        left: 126px;
+    }
+    #causes .causestitle h3 {
+        font-size: 24px;
+        padding-top: 15px;
+        line-height: 48px;
+    }
+    /* ||Causes Responsive Css End|| */
+
+    /* Join community Responsive Css Start */
+    #community .title h2 {
+        font-size: 29px;
+        margin-bottom: 25px;
+    }
+    /* ||Join community Responsive Css End|| */
+
+    /* Donate Responsive Css Start */
+    #donate .donatetitle h5::before {
+        left: 135px;
+    }
+    #donate .donatetitle {
+        padding-bottom: 5px;
+    }
+    #donate .donatetitle h3 {
+        font-size: 24px;
+        text-align: left;
+    }
+    #donate .content_box h3 {
+        font-size: 22px;
+    }
+    #donate .donate_causes p {
+        font-size: 17px;
+    }
+    /* ||Donate Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #testimonial{
+        text-align: center;
+    }
+    h5.smtitle::before {
+        left: 153px;
+    }
+    #testimonial .clientSec .heading h2 {
+        font-size: 30px;
+    }
+    #testimonial .test_item_arrow{
+        position: absolute;
+        bottom: 19px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #testimonial .clientslider .clogo img{
+        margin: 0 auto;
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* Blog Responsive Css Start */
+    #blog .blog_link{
+        text-align: left;
+    }
+    #blog .content P {
+        font-size: 41px;
+        line-height: 52px;
+        padding: 10px 0 40px 0;
+    }
+    #blog .blog_item .item_left{
+        padding-bottom: 30px;
+    }
+    /* ||Blog Responsive Css End|| */
+
+    /* Contact Responsive Css Start */
+    #contact .con_about h3, #contact .con_explore h3, #contact .con h3, #contact .newsletter h3.bottom_pd{
+        padding-top: 30px;
+    }
+    /* ||Contact Responsive Css End|| */
+
+    /* Footer Responsive Css Start */
+    footer .fot_social ul li {
+        padding: 30px 5px;
+    }
+    footer .fot_social ul li a i {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    footer .fot_tle {
+        padding-left: 0px;
+    }
+    footer .fot_tle p {
+        font-size: 14px;
+    }
+    /* ||Footer Responsive Css End|| */
+
+    /*=======================
+    About Page
+    =========================*/
+/* About Banner Responsive Css Start */
+    #about_banner .banner_container {
+	    right: 7%;
+    }
+/* ||About Banner Responsive Css End|| */
+
+    /* Introduction Responsive Css Start */
+    #introduction{
+        padding: 80px 0;
+    }
+    #introduction .intro_content {
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+    #introduction .intro_content h2 {
+        font-size: 33px;
+        line-height: 45px;
+        padding-top: 8px;
+    }
+    #introduction .intro_content .intro_reating span{
+        margin: 10px 0;
+        margin-right: 15px;
+    }
+    #in
+    /* ||Introduction Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #test .test_item h2{
+        padding-bottom: 40px !important;
+    }
+    #test .test_item_arrow{
+        padding-top: 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* counter Responsive Css Start */
+    #count_sec{
+        height: 400px;
+    }
+    #count_sec h4 {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        font-size: 39px;
+        line-height: 50px;
+    }
+    #counter_up .counter_item h5{
+        font-size: 40px;
+    }
+    #counter_up .counter_item{
+        border-bottom: 1px solid #ddd;
+    }
+    /* ||counter Responsive Css End|| */
+
+    /* Volunteer Responsive Css Start */
+    #volunteer .volunteer_item{
+        padding-bottom: 20px;
+    }
+    /* ||Volunteer Responsive Css End|| */
+
+    /*=======================
+    Event Page
+    =========================*/
+    #event_detals .event_d_item_right {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    /*=======================
+    News Page
+    =========================*/
+    #news_shorts {
+        padding: 70px 0;
+    }
+    #details{
+        margin: 70px 0;
+    }
+    .details_content .content_tle h4 {
+        font-size: 20px;
+    }
+    .details_content .tegs .social_links ul li a {
+        margin: 0px 2px;
+    }
+    .details_sidebar .potegs ul li a {
+        margin: 0 3px 8px 0;
+    }
+    /*=======================
+    Contact Page
+    =========================*/
+    #contact_form .donatetitle h3 {
+        font-size: 38px;
+    }
+    #contact_form .donatetitle h5::before {
+        left: 124px !important;
+    }
+
+    /* Coming Soon Responsive Css Start */
+    #coming .soon h2 {
+        padding-bottom: 27px;
+        font-size: 24px;
+        letter-spacing: 12px;
+    }
+    #clock a{
+        margin: 0 10px;
+        padding: 10px 8px;
+        font-size: 18px;
+    }
+    #coming .soon h3 {
+        font-size: 18px;
+        letter-spacing: 7px;
+        padding-top: 12px;
+    }
+    #coming .soon{
+        top: 38%;
+    }
+    /* ||Coming Soon Responsive Css End|| */
+}
+@media (max-width:575.98px){
+    /* Header Responsive Css Start */
+    header .logo,
+    header .menu{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .navbar-toggler {
+        padding-left: 0 !important;
+    }
+    header .side_menu{
+        width: 280px;
+        margin-left: -300px;
+    }
+    header .side_menu .side_logo a{
+        font-size: 25px;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* Banner Responsive Css Start */
+    #banner .slider_item{
+        height: 400px;
+    }
+    #banner .slider_item .slider_content h4 {
+        font-size: 22px;
+    }
+    #banner .slider_item .slider_content h2 {
+        font-size: 30px;
+    }
+    #banner .slider_item .slider_content a {
+        padding: 15px 17px;
+    }
+    /* ||Banner Responsive Css End|| */
+
+    /* Charity Responsive Css Start */
+    #charity {
+        margin: 70px 0;
+    }
+    #charity .img-sec{
+        margin-bottom: 70px;
+    }
+    #charity .main_img::before {
+        content: none;
+    }
+    #charity .img-sec .hearticon {
+        right: 37px;
+        bottom: 9px;
+    }
+    #charity .img-sec .bttext {
+        left: 11px;
+        bottom: -27px;
+    }
+    #charity .img-sec .bttext p {
+        font-size: 32px;
+    }
+    #charity .charity_content .heading {
+        margin-bottom: 18px;
+    }
+    #charity .charity_content .heading h2 {
+        font-size: 28px;
+    }
+    #charity .charity_content a {
+        display: block;
+        text-align: center;
+        
+    }
+    /* ||Charity Responsive Css End|| */
+
+    /* Causes Responsive Css Start */
+    #causes .causestitle {
+        padding: 60px 0;
+    }
+    #causes .causestitle {
+	text-transform: capitalize;
+	padding: 100px 0 80px;
+}
+    #causes .causestitle h5::before {
+        left: 21px;
+    }
+    #causes .causestitle h3 {
+        font-size: 24px;
+        padding-top: 15px;
+        line-height: 48px;
+    }
+    /* ||Causes Responsive Css End|| */
+
+    /* Join community Responsive Css Start */
+    #community .title h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    /* ||Join community Responsive Css End|| */
+
+    /* Donate Responsive Css Start */
+    #donate .donatetitle h5::before {
+        left: 25px;
+    }
+    #donate .donatetitle {
+        padding-bottom: 5px;
+    }
+    #donate .donatetitle h3 {
+        font-size: 24px;
+        line-height: 40px;
+        padding: 15px 0 20px 0;
+    }
+    #donate .content_box h3 {
+        font-size: 22px;
+    }
+    #donate .donate_causes p {
+        font-size: 15px;
+    }
+    #donate .donate_form{
+        margin-top: 20px;
+    }
+    #donate .donate_form {
+        padding: 20px;
+    }
+    #donate .helping_img .img_icon {
+        position: absolute;
+        right: 30px;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        text-align: center;
+    }
+    #donate .helping_img .img_icon i {
+        font-size: 25px;
+        line-height: 60px;
+        color: #fff;
+    }
+    /* ||Donate Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #testimonial{
+        text-align: center;
+    }
+    #testimonial h5.smtitle::before{
+        left: 42px !important;
+    }
+    #testimonial .clientSec .heading h2 {
+        font-size: 27px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    #testimonial .test_item_arrow{
+        position: absolute;
+        bottom: 19px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #testimonial .clientslider .clogo img{
+        margin: 0 auto;
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* Blog Responsive Css Start */
+    #blog {
+        padding: 60px 0;
+    }
+    h5.smtitle::before {
+	left: 7px;
+    }
+    #blog .blog_link{
+        text-align: left;
+    }
+    #blog .content P {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 0 40px 0;
+    }
+    #blog .blog_item .item_left{
+        padding-bottom: 30px;
+    }
+    /* ||Blog Responsive Css End|| */
+
+    /* Contact Responsive Css Start */
+    #contact {
+        padding: 60px 0;
+    }
+    #contact .con_explore h3, #contact .con h3, #contact .newsletter h3{
+        padding-top: 30px;
+    }
+    /* ||Contact Responsive Css End|| */
+
+    /* Footer Responsive Css Start */
+    footer .fot_social ul li {
+        padding: 30px 5px;
+    }
+    footer .fot_social ul li a i {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    footer .fot_tle{
+        margin: 0 auto;
+    }
+    footer .fot_tle p {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    /* ||Footer Responsive Css End|| */
+
+    /*=======================
+    About Page
+    =========================*/
+    /* About Banner Responsive Css Start */
+    #about_banner {
+    	height: 280px;
+    }
+    #about_banner h2 {
+    	font-size: 50px;
+    	font-weight: 900;
+    }
+    #about_banner .banner_container {
+        right: 2%;
+    }
+    /* ||About Banner Responsive Css End|| */
+
+    /* Introduction Responsive Css Start */
+    #introduction{
+        padding: 60px 0;
+    }
+    #introduction .intro_content {
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+    #introduction .intro_content h2 {
+        font-size: 33px;
+        line-height: 45px;
+        padding-top: 8px;
+    }
+    #introduction .intro_content h4 {
+    	padding-bottom: 20px;
+    }
+    #introduction .intro_content .intro_reating span{
+        margin: 10px 0;
+        margin-right: 15px;
+    }
+    #in
+    /* ||Introduction Responsive Css End|| */
+
+    /* Testimonial Responsive Css Start */
+    #test{
+        text-align: center;
+    }
+    #test .test_item h2 {
+    	font-size: 29px !important;
+    	line-height: 36px !important;
+    	padding-top: 12px !important;
+    }
+    #test .test_item_arrow{
+        padding-top: 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #test .test_item .test_slider .test_slider_item{
+        text-align: center;
+    }
+    #test .test_user .test_user_img{
+        margin: 0 auto !important;
+    }
+    /* ||Testimonial Responsive Css End|| */
+
+    /* counter Responsive Css Start */
+    #count_sec{
+        height: 350px;
+    }
+    #count_sec h4 {
+    	padding-top: 44px;
+    	padding-bottom: 25px;
+    	font-size: 25px;
+    	line-height: 33px;
+    }
+    #counter_up .counter_item h5{
+        font-size: 35px;
+    }
+    #counter_up .counter_item{
+        border-bottom: 1px solid #ddd;
+    }
+    #counter_up .counter_item p {
+    	font-size: 16px;
+    }
+    /* ||counter Responsive Css End|| */
+
+    /* Volunteer Responsive Css Start */
+    #volunteer .volunteer_item{
+        padding-bottom: 20px;
+    }
+    /* ||Volunteer Responsive Css End|| */
+
+    /*=======================
+    Event Page
+    =========================*/
+    #event_sec,
+    #event_detals,
+    #news_shorts{
+    	padding: 60px 0;
+    }
+    #event_detals .event_d_item h5 {
+        font-size: 27px;
+        line-height: 40px;
+        padding-bottom: 12px;
+    }
+    #event_detals .event_d_item_right {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    /* News Detals Css Start */
+    #details{
+        margin: 70px 0;
+    }
+    .details_sidebar .search {
+        padding: 0 10px;
+    }
+    .details_content .content_tle h4 {
+        font-size: 20px;
+    }
+    .details_content .tegs .social_links ul li a {
+        margin: 0px 8px;
+    }
+    .details_sidebar .potegs ul li a {
+        margin: 0 3px 8px 0;
+    }
+    .details_content .tegs .links ul li a {
+        padding: 7px 8px;
+        margin: 0px 7px;
+        font-size: 12px;
+    }
+    .details_content .justify-content-end {
+        justify-content:center !important;
+        padding: 10px 0;
+    }
+    .comment_form {
+        background-color: #eff5f4;
+        padding: 15px;
+    }
+    /* ||News Detals Css End|| */
+
+
+    /*=======================
+    Contact Page
+    =========================*/
+    #contact_form .donatetitle h3 {
+        font-size: 34px;
+    }
+    #contact_form .donatetitle h5::before {
+        left: 10px !important;
+    }
+    #contact_form .contactmain_form {
+        padding: 10px;
+    }
+    /* Coming Soon Responsive Css Start */
+    #coming .soon h2 {
+        padding-bottom: 21px;
+        font-size: 17px;
+        letter-spacing: 10px;
+    }
+    #coming #clock{
+        border-top: 1px solid #fff;
+        padding: 4px 0;
+        margin: 0 5px;
+        border-bottom: 1px solid #fff;
+    }
+    #clock a{
+        display: none;
+    }
+    #coming .soon h3 {
+        font-size: 16px;
+        letter-spacing: 4px;
+        padding-top: 12px;
+    }
+    #coming .soon{
+        top: 38%;
+    }
+    /* ||Coming Soon Responsive Css End|| */
+}
